@@ -1,0 +1,95 @@
+{
+  "blogs": [
+    {
+      "title": "Apple hid a quarter of a trillion dollars. What’s wrong with that?",
+      "description": "This summer Apple’s ad team made a departure from its usual courtship of coastal hipsters, and ran a campaign featuring country star Brantley Gilbert. “I love the feeling out here,” Gilbert said, his hands brushing wheat in a field outside Leiper’s Fork, Tennessee. “The freedom. The simplicity. The open road.",
+      "type": "Technology",
+      "favourites": [
+        2,
+        3,
+        1
+      ],
+      "authorId": 2,
+      "id": 2
+    },
+    {
+      "title": "Los  is quickly becoming a place exclusively for the white and rich",
+      "description": "L.A.’s Black population has declined by 100,000 since the 1980s, falling from 13% of the County population to 8% in just a few decades. Hollywood alone saw the displacement of 13,000 Latinos between 2000 and 2010, pushed out by rising rents to make way for upscale redevelopment. These are just two of the most eye-popping figures that illustrate a larger point: Los Angeles is increasingly becoming solely accessible to the rich, and the rich are disproportionately white. (“Black and Mexican households have one cent for every dollar of wealth held by the average white household,” according to The Color of Wealth in Los Angeles.)",
+      "type": "Economy",
+      "favourites": [
+        2,
+        3
+      ],
+      "authorId": 2,
+      "id": 3
+    },
+    {
+      "title": "Demonetisation",
+      "description": "Demonetization is the act of stripping a currency unit of its status as legal tender. It occurs whenever there is a change of national currency: The current form or forms of money is pulled from circulation and retired, often to be replaced with new notes or coins.",
+      "type": "Economics",
+      "favourites": [
+        1
+      ],
+      "authorId": 1,
+      "id": 10
+    },
+    {
+      "title": "Ugly is the New Black",
+      "description": "As being one of the independent players of Internet world, Dropbox showed up with a brand new, bold and brave makeup and declared that it is not another boring blue website anymore. By this move, it should come as no surprise that Dropbox remembers and uses its right to be different when all digital products becoming more and more like each other. It duly did what needed to be done. What if it did not!",
+      "type": "xyz",
+      "favourites": [
+        2
+      ],
+      "authorId": 3,
+      "id": 12
+    },
+    {
+      "title": "klkjads",
+      "description": "lklkasd",
+      "type": "lkklads",
+      "favourites": [
+        1
+      ],
+      "authorId": 1,
+      "id": 14
+    },
+    {
+      "title": "lkl",
+      "description": "lk",
+      "type": "lk",
+      "favourites": [
+        1,
+        2
+      ],
+      "authorId": 1,
+      "id": 16
+    },
+    {
+      "title": "Tesla Unveils an Electric Rival to Semi Trucks",
+      "description": "Tesla has aimed to reinvent the automobile and the way electricity is generated for homes. With those efforts still in progress, it is setting out on another quest: to remake the multibillion-dollar trucking industry. In an elaborately produced nighttime presentation by its chief executive, Elon Musk, Tesla on Thursday unveiled a prototype…",
+      "type": "Technology",
+      "favourites": [
+        2
+      ],
+      "authorId": 2,
+      "id": 20
+    }
+  ],
+  "users": [
+    {
+      "name": "lovish",
+      "password": "qwerty",
+      "id": 1
+    },
+    {
+      "name": "anjali",
+      "password": "qwerty",
+      "id": 2
+    },
+    {
+      "name": "anant",
+      "password": "qwerty",
+      "id": 3
+    }
+  ]
+}

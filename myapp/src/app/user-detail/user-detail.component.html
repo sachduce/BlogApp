@@ -1,0 +1,26 @@
+<div >
+    <div class="row " >
+      <h5 class="center-align">Welcome to My Blog {{userName | uppercase}}</h5>
+      <app-blog-list [userId]="userId" (update)="updateCalled($event)" (delete)="deleteCalled($event)"></app-blog-list>
+
+          <div class="container row " *ngIf="status">
+              <div class="row">
+                <div class="input-field col s12">
+                  <input placeholder="Blog title"  type="text" (input)="title = $event.target.value" [value]="title" class="validate"   #name1>
+                </div>
+                <div class="input-field col s12">
+                  <input  type="text" placeholder="Blog description"  (input)="description = $event.target.value" [value]="description" #desc1 >
+
+                </div>
+                <div class="input-field col s6" >
+                  <input  type="text" placeholder="Blog type"  (input)="type = $event.target.value" [value]="type" #type1 >
+                </div>
+              </div>
+            <a class="waves-effect waves-light btn " (click)="updateBlog(name1.value,desc1.value,type1.value)">Update</a>
+
+
+          </div>
+        </div>
+
+</div>
+

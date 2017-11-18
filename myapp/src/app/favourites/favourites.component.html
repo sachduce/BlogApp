@@ -1,0 +1,7 @@
+
+<button *ngIf="userId" style="background-color: transparent; border: none" (click)="onClick(userId)">
+  <i *ngIf="favMarkedStatus" class="red-text material-icons">favorite</i>
+  <i *ngIf="!favMarkedStatus" class=" material-icons">favorite</i>
+</button>
+
+

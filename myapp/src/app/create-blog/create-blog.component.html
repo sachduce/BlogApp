@@ -1,0 +1,16 @@
+<div class="container row "*ngIf="userId">
+  <div class="row">
+    <div class="input-field col s12">
+      <input placeholder="Blog title"  type="text"   class="validate"   #name1>
+    </div>
+    <div class="input-field col s12">
+      <input  type="text" placeholder="Blog description"    #desc1 >
+
+    </div>
+    <div class="input-field col s6" >
+      <input  type="text" placeholder="Blog type"   #type1 >
+    </div>
+  </div>
+  <a class="waves-effect waves-light btn " (click)="submitForm(name1.value,desc1.value,type1.value)">Submit</a>
+
+</div>
