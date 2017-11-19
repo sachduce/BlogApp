@@ -11,6 +11,9 @@ import {Router} from "@angular/router";
 export class CreateBlogComponent implements OnInit {
 
   constructor(private _blogService:BlogService,private _router:Router) { }
+  title:string="";
+  description:string="";
+  type:string="";
   blog:IBlog={
     "title": "",
     "description": "",
@@ -32,6 +35,9 @@ export class CreateBlogComponent implements OnInit {
     this.blog.type=type
     this._blogService.postBlog(this.blog).subscribe();
     alert("Blog added successfully")
+    this.title="";
+    this.description="";
+    this.type="";
     //this._router.navigate(['/loggedin']);
   }
 

@@ -1,6 +1,7 @@
-import { Component, OnInit, ViewEncapsulation,Input,Output,EventEmitter } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation,Input,Output,EventEmitter} from '@angular/core';
 import {BlogService} from "../Services/blog.service";
 import {IBlog} from "../Interface/IBlog"
+import {forEach} from "@angular/router/src/utils/collection";
 
 @Component({
   selector: 'app-blog-list',
@@ -11,17 +12,22 @@ import {IBlog} from "../Interface/IBlog"
 export class BlogListComponent implements OnInit {
   constructor(private _blog: BlogService) { }
   @Input() userId=0;
-
-
+  category:string[]=[];
   @Output() update: EventEmitter<Object> = new EventEmitter<Object>();
   @Output() delete:EventEmitter<Object> = new EventEmitter<Object>();
   blogs:IBlog[]=[];
   listFilter:string="";
   ngOnInit() {
     this._blog.getBlogs().subscribe(blog=>{this.blogs= blog;
+    this.blogs.forEach(b=>
+    {
+      if(!this.category.includes(b.type)){
+        this.category.push(b.type);
+      }
+    })
     });
-
   }
+
 
   favClick(userId,blog:IBlog){
     if(blog.favourites.includes(userId)){
@@ -38,5 +44,8 @@ export class BlogListComponent implements OnInit {
   deleteClick(blog){
     this.blogs= this.blogs.filter(b=>b.id != blog.id);
     this.delete.emit(blog);
+  }
+  onSet(type){
+    this.listFilter=type;
   }
 }

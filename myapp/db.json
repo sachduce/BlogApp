@@ -26,7 +26,7 @@
     {
       "title": "Demonetisation",
       "description": "Demonetization is the act of stripping a currency unit of its status as legal tender. It occurs whenever there is a change of national currency: The current form or forms of money is pulled from circulation and retired, often to be replaced with new notes or coins.",
-      "type": "Economics",
+      "type": "Economy",
       "favourites": [
         1
       ],
@@ -36,33 +36,12 @@
     {
       "title": "Ugly is the New Black",
       "description": "As being one of the independent players of Internet world, Dropbox showed up with a brand new, bold and brave makeup and declared that it is not another boring blue website anymore. By this move, it should come as no surprise that Dropbox remembers and uses its right to be different when all digital products becoming more and more like each other. It duly did what needed to be done. What if it did not!",
-      "type": "xyz",
+      "type": "Technology",
       "favourites": [
         2
       ],
       "authorId": 3,
       "id": 12
-    },
-    {
-      "title": "klkjads",
-      "description": "lklkasd",
-      "type": "lkklads",
-      "favourites": [
-        1
-      ],
-      "authorId": 1,
-      "id": 14
-    },
-    {
-      "title": "lkl",
-      "description": "lk",
-      "type": "lk",
-      "favourites": [
-        1,
-        2
-      ],
-      "authorId": 1,
-      "id": 16
     },
     {
       "title": "Tesla Unveils an Electric Rival to Semi Trucks",
@@ -73,6 +52,54 @@
       ],
       "authorId": 2,
       "id": 20
+    },
+    {
+      "title": "What’s in a Physical Space?",
+      "description": "At my most recent job, I did all of my best work at home. I would actively try to avoid the office for as long as possible. At home, I had two desks and complete control over my environment. Distractions and breaks were choices.",
+      "type": "Psychology",
+      "favourites": [],
+      "authorId": 1,
+      "id": 21
+    },
+    {
+      "title": "The 12 New Rules to Become Radically Successful as An Artist",
+      "description": "In 1995, an American professor made an unusual discovery. At Syracuse University in Florence, Rab Hatfield was trying to match the scenes of the Sistine Chapel to the dates Michelangelo had painted each of them. Since the artist had received commissions in various installments, the professor thought there might be a paper trail, so he went to the city archives. Surprised at how easy it was to locate five-hundred-year-old bank records, he began reconstructing a more accurate timeline for how the most famous ceiling in the world came to be.",
+      "type": "Creativity",
+      "favourites": [],
+      "authorId": 1,
+      "id": 22
+    },
+    {
+      "title": "16 Top Rated and Best Selling Business Courses Online",
+      "description": "Students of this course will enjoy learning everything they need to know about business….from starting a company to taking it public while learning the most important topics taught at the top MBA schools in the world. Accounting in 60 Minutes — A Brief Introduction This course will show you the very basics of accounting. You can complete it in about an hour. This course is intended for business owners, business students, managers or anyone who wants to understand basic accounting. It presents the information in an understandable fo",
+      "type": "Business",
+      "favourites": [],
+      "authorId": 1,
+      "id": 23
+    },
+    {
+      "title": "8 Proven Performance Practices from Billionaires and Elite Athletes",
+      "description": "The middle-ground has all but dissolved, leaving you in one of two positions:among the leading few or mediocre many. Your relationship with technology will either facilitate unthinkable opportunity and growth or keep you on the wrong side of average. As Cal Newport has said in his book, Deep Work: Rules for Focused Success in a Distracted World:",
+      "type": "Entrepreneurship",
+      "favourites": [],
+      "authorId": 3,
+      "id": 24
+    },
+    {
+      "title": "The Simple Art of Getting Anything You Want",
+      "description": "Daniel Day-Lewis isn’t as big of a household name as he should be. You may recognize his face from movies like Gangs of New York and Lincoln, if you’re someone who watches a lot of films, but he’s not exactly a man who turns up in celebrity gossip magazines or on every other talk show. His quiet personal reputation, however, stands in opposition to the acclaim that he has received in the broader Hollywood community. He has been awarded the Academy Award for Best Actor on three different occasions. That’s more than any other male actor in history. It isn’t just a stroke of luck, either. Day-Lewis is widely considered to be one of the most talented actors of his generation, if not one of the all-time greats. In 2014, he was given a knighthood at the Buckingham Palace for his services to the art of Drama by the Royal Family of England. Interestingly, there are a lot of visible differences between his approach to his art compared to that of the majority of other people who act.",
+      "type": "Self",
+      "favourites": [],
+      "authorId": 3,
+      "id": 25
+    },
+    {
+      "title": "Learn To Code With These Top Rated Programming Courses",
+      "description": "You’ll get access to twelve chapters that dig deep into the nitty gritty of building successful websites. Each chapter is supported with over 40 hours of clear, intelligent video tutorials and practical website challenges. Learn to build 25 websites and real mobile apps using HTML, CSS, Javascript, PHP, Python, MySQL and a lot more.",
+      "type": "Career",
+      "favourites": [],
+      "authorId": 3,
+      "id": 26
     }
   ],
   "users": [
